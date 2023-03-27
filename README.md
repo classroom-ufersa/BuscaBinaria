@@ -1,2 +1,4 @@
 # Busca Binaria
 
+teste..
+
