@@ -17,3 +17,7 @@ A função 'BuscarMat' recebe um vetor ordenado, a quantidade de elementos desse
 
 ![Captura de Tela (1)](https://user-images.githubusercontent.com/119773339/228899805-a4346d26-7c8b-4e05-873c-e1e0cfbcf933.png)
 
+# Referências
+° https://blog.pantuza.com/artigos/busca-binaria
+° https://www.youtube.com/@ccsldoimeusp4077
+
