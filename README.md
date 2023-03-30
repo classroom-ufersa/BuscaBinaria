@@ -1,8 +1,8 @@
-# Busca Binaria
+# Busca Binária
 # Definição
 A busca/pesquisa binária ou binary search é um algoritmo que implementa o paradigma Divisão e Conquista para encontrar um elemento em um vetor ordenado.
 
-# Mecanismo de Busca
+# Mecanismo de busca
 Divide repetidamente pela metade a porção do vetor que deve conter o item, até reduzir as localizações possíveis a apenas uma.
 
 ![binary_search](https://user-images.githubusercontent.com/119773339/228894541-5cee9541-c321-4678-b6fc-f6252c93cc06.jpg)
