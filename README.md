@@ -19,6 +19,8 @@ A função 'BuscarMat' recebe um vetor ordenado, a quantidade de elementos desse
 
 A função 'BuscaNome' também implementa um mecanismo de Busca Binária só que, diferente da função citada anteriormente, recebe um vetor de strings (nomes dos alunos) já ordenado em ordem alfabética e a string que deve ser achada. A função faz uso da strcmp para realizar a busca. 
 
+![Captura de Tela (3)](https://user-images.githubusercontent.com/119773339/229025449-d964fef2-8ca9-48c4-9610-cefd5bb47774.png)
+
 # Referências
 ° https://blog.pantuza.com/artigos/busca-binaria
 ° https://www.youtube.com/@ccsldoimeusp4077
