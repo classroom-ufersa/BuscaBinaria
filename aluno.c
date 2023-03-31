@@ -9,7 +9,7 @@ char nome[80];
 char cpf[20];
 int matricula;
 } typedef Aluno;
-//Aloca um struct do tipo Aluno, preenche a struct, verifica se j· existe aluno matriculado com o n˙mero e matricula ou n„o o aluno
+//Aloca um struct do tipo Aluno, preenche a struct, verifica se j√° existe aluno matriculado com o n√∫mero e matricula ou n√£o o aluno
 FILE* matriculaaluno(FILE* p, int *qtd){
 setlocale(LC_ALL, "Portuguese");
  int i; 
@@ -20,7 +20,7 @@ setlocale(LC_ALL, "Portuguese");
     fflush(stdin);
     printf("Digite o cpf desse aluno:");
     scanf("%[^\n]", &a->cpf);
-    printf("Digite a matrÌcula desse aluno:");
+    printf("Digite a matr√≠cula desse aluno:");
     scanf("%d", &a->matricula);
     if(*qtd > 0){
     p = fopen("alunos.txt", "r");
@@ -29,7 +29,7 @@ setlocale(LC_ALL, "Portuguese");
 	}
     i = BuscaMat(criaeordenaMAT(p, *qtd), *qtd, a->matricula);
      if(i == 1){
-     	printf("\nALUNO COM ESSA MATRICULA J¡ EXISTE!\n");
+     	printf("\nALUNO COM ESSA MATRICULA J√Å EXISTE!\n");
 	 } else{
 	 	p = fopen("alunos.txt", "a");
 	 	if(p == NULL){
@@ -66,7 +66,7 @@ Aluno* criaeordenaMAT(FILE *p, int qtd){
 
  return a;
 }
-//Aloca um vetor de struct Alunos, preenche esse vetor com os dados do arquivo, ordena em ordem alfabÈtica esse vetor e retorna o vetor ordenado
+//Aloca um vetor de struct Alunos, preenche esse vetor com os dados do arquivo, ordena em ordem alfab√©tica esse vetor e retorna o vetor ordenado
 Aluno* criaeordenaNOME(FILE *p, int qtd){
 int i;
  Aluno *a = (Aluno*) malloc(qtd*sizeof(Aluno));
@@ -104,7 +104,7 @@ int comparaNome(const void * a, const void * b){
 	 }
  }
 }
-//Busca o aluno pelo n˙mero em um vetor ordenado
+//Busca o aluno pelo n√∫mero em um vetor ordenado
 int BuscaMat(Aluno *a, int qtd, int mat){
 setlocale(LC_ALL, "Portuguese");
 int p = 0;
@@ -113,7 +113,7 @@ int m;
 while(p <= u){
  m = (p + u)/2;
  if(a[m].matricula == mat){
- 	printf("\nAluno encntrado:\nNome: %s\tCPF: %s\tMatrÌcula: %d", a[m].nome, a[m].cpf, a[m].matricula);
+ 	printf("\nALUNO ENCONTRADO:\nNome: %s\tCPF: %s\tMatr√≠cula: %d", a[m].nome, a[m].cpf, a[m].matricula);
  	free(a);
  	return 1;
  } else {
@@ -147,7 +147,7 @@ while(p <= u){
 m = (p + u)/2;
 r = strcmp(nome, a[m].nome);
 if(r == 0){
-	printf("ALUNO ENCONTRADO:\n NOME: %s CPF: %s MATRÕCULA: %d N⁄MERO DE CHAMADA: %d", a[m].nome, a[m].cpf, a[m].matricula, m+1);
+	printf("ALUNO ENCONTRADO:\n NOME: %s CPF: %s MATR√çCULA: %d N√öMERO DE CHAMADA: %d", a[m].nome, a[m].cpf, a[m].matricula, m+1);
 	free(a);
 	free(nome);
 	return 1;
@@ -161,13 +161,13 @@ if(r == 0){
  }
  clock_t end = clock();
  //TempExe += (double)(end - begin) / CLOCKS_PER_SEC;
- //printf("\nO tempo de execuÁ„o do processo de busca, em segundos, foi: %f\n", TempExe);
+ //printf("\nO tempo de execu√ß√£o do processo de busca, em segundos, foi: %f\n", TempExe);
  
  free(a);
  free(nome);
  return -1;
 }
-//calcula o n˙mero de linhas de um arquivo j· existente
+//calcula o n√∫mero de linhas de um arquivo j√° existente
 void calculaalunos(FILE* p, int *qtd){
 int c; 
 while((c = fgetc(p)) != EOF){
