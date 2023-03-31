@@ -8,7 +8,7 @@ Divide repetidamente pela metade a porção do vetor que deve conter o item, at�
 ![binary_search](https://user-images.githubusercontent.com/119773339/228894541-5cee9541-c321-4678-b6fc-f6252c93cc06.jpg)
 
 # Complexidade
-Por se tratar de um mecanismo que funciona dividindo o tamanho do vetor (n) em 2, a busca binária tem em uma complexidade logarítmica, ou seja, O(log n) no pior e na maioria dos cenários.
+Por se tratar de um mecanismo que funciona dividindo o tamanho do vetor (n) em 2, a busca binária tem em uma complexidade logarítmica, ou seja, O(log n) na pior e na maioria dos cenários.
 
 ![Untitled](https://user-images.githubusercontent.com/119773339/228895974-a9b4c894-5bce-4d98-99d8-5dbae6d23639.png)
 
