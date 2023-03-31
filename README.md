@@ -45,7 +45,7 @@ O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de partici
 ![4 1](https://user-images.githubusercontent.com/119773339/229207752-c8459be5-692a-4725-b1db-a22caba877c8.png)
 ![4 2](https://user-images.githubusercontent.com/119773339/229207800-9b86343f-d562-4ec7-97d2-37d998dae4d9.png)
 
-5 - Após a criação do projeto exclua o arquivo 'main.c'
+5 - Após a criação do projeto, exclua o arquivo 'main.c'
 ![5](https://user-images.githubusercontent.com/119773339/229207956-b918e833-209e-4b5f-bc84-bf54b2a5ec29.png)
 
 6 - Em seguida, adicione os três arquivos do nosso código (main.c, aluno. c e aluno.h) ao projeto
@@ -53,7 +53,7 @@ O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de partici
 ![6 2](https://user-images.githubusercontent.com/119773339/229208096-2047322a-1e49-4ccc-8393-ee2ccccf2968.png)
 
 
-7 - No arquivo 'main.c', clique em 'Executar' e depois 'Compilar e Exexutar'
+7 - No arquivo 'main.c', clique em 'Executar' e depois 'Compilar e Executar'
 ![7](https://user-images.githubusercontent.com/119773339/229208176-f281a233-24f1-4fdf-95d2-13d3e5dde3c3.png)
 # Referências
 
