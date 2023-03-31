@@ -22,13 +22,13 @@ A função 'BuscaNome' também implementa um mecanismo de Busca Binária só que
 ![Captura de Tela (3)](https://user-images.githubusercontent.com/119773339/229025449-d964fef2-8ca9-48c4-9610-cefd5bb47774.png)
 
 # Mecanismos auxiliares: qsort(Quick Sort)
-Para que a Busca Binária seja realizada, por matrícula ou nome, é necessário que a array esteja ordenada da maneira correta (crescente ou ordem alfabética), para realizar tal função é chamada a função qsort, da biblioteca stdlib.h, que utiliza o mecanismo Quick sort para ordernar os vetores. 
+Para que a Busca Binária seja realizada, por matrícula ou nome, é necessário que a array esteja ordenada da maneira correta (crescente ou ordem alfabética), para realizar tal função é chamada a função qsort, da biblioteca stdlib.h, que utiliza o mecanismo Quick Sort para ordernar os vetores. 
 
 ![Captura de Tela (6)](https://user-images.githubusercontent.com/119773339/229038098-45f586cf-583b-40f8-9d18-836e9a8ad57b.png)
 
 ![Captura de Tela (7)](https://user-images.githubusercontent.com/119773339/229038191-f7380deb-e51d-45ba-b135-8334adf4dc5e.png)
 
-O algoritmo de Quick Sort baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita. A animação a seguir mostra a atuação desse algoritmo em um vetor de inteiros.
+O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita. A animação a seguir mostra a atuação desse algoritmo em um vetor de inteiros.
 
 ![Quicksort-example](https://user-images.githubusercontent.com/119773339/229040205-0b0418db-f439-4696-8868-44f2f099ba29.gif)
 # Referências
