@@ -31,6 +31,30 @@ Para que a Busca Binária seja realizada, por matrícula ou nome, é necessário
 O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita. A animação a seguir mostra a atuação desse algoritmo em um vetor de inteiros.
 
 ![Quicksort-example](https://user-images.githubusercontent.com/119773339/229040205-0b0418db-f439-4696-8868-44f2f099ba29.gif)
+
+# Passo a passo para a execução do código utilizando o Dev-C++
+1 - Abra o Dev-c++
+
+2 - Vá em 'Arquivo' -> 'Novo' -> 'Projeto...'
+![2](https://user-images.githubusercontent.com/119773339/229207352-b00a03f5-c46c-49c3-a2e1-e06d35774988.png)
+
+3 - Selecione 'Console Application', marque a caixinha 'Projeto em C', dê um nome para o projeto e, em seguida, clique em 'Ok'
+![3](https://user-images.githubusercontent.com/119773339/229207657-f5e290c7-cbb5-4fd2-96aa-92ab4f8f86d4.png)
+
+4 - Crie uma nova pasta e salve seu projeto nela
+![4 1](https://user-images.githubusercontent.com/119773339/229207752-c8459be5-692a-4725-b1db-a22caba877c8.png)
+![4 2](https://user-images.githubusercontent.com/119773339/229207800-9b86343f-d562-4ec7-97d2-37d998dae4d9.png)
+
+5 - Após a criação do projeto exclua o arquivo 'main.c'
+![5](https://user-images.githubusercontent.com/119773339/229207956-b918e833-209e-4b5f-bc84-bf54b2a5ec29.png)
+
+6 - Em seguida, adicione os três arquivos do nosso código (main.c, aluno. c e aluno.h) ao projeto
+![6 1](https://user-images.githubusercontent.com/119773339/229208061-49f2c832-4740-4483-a3e3-611809089afb.png)
+![6 2](https://user-images.githubusercontent.com/119773339/229208096-2047322a-1e49-4ccc-8393-ee2ccccf2968.png)
+
+
+7 - No arquivo 'main.c', clique em 'Executar' e depois 'Compilar e Exexutar'
+![7](https://user-images.githubusercontent.com/119773339/229208176-f281a233-24f1-4fdf-95d2-13d3e5dde3c3.png)
 # Referências
 
 ° https://blog.pantuza.com/artigos/busca-binaria
