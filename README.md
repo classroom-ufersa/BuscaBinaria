@@ -28,7 +28,7 @@ Para que a Busca Binária seja realizada, por matrícula ou nome, é necessário
 
 ![Captura de Tela (7)](https://user-images.githubusercontent.com/119773339/229038191-f7380deb-e51d-45ba-b135-8334adf4dc5e.png)
 
-O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita. A animação a seguir mostra a atuação desse algoritmo em um vetor de inteiros.
+O mecanismo Quick Sort baseia a ordenação em sucessivas execuções de particionamento, uma rotina que escolhe um pivot e o posiciona no array de uma maneira em que os elementos menores ou iguais ao pivot estão à sua esquerda e os maiores estão à sua direita. A animação a seguir mostra a atuação desse algoritmo em um vetor de inteiros. Sua complexidade na notação big O é O(nlogn), entertanto, em raros casos, pode ser O(n^2).
 
 ![Quicksort-example](https://user-images.githubusercontent.com/119773339/229040205-0b0418db-f439-4696-8868-44f2f099ba29.gif)
 
