@@ -3,9 +3,9 @@
 A pesquisa ou busca binária é um algoritmo de busca em vetores que segue o paradigma de divisão e conquista. 
 
 # Mecanismo de busca
-Divide repetidamente pela metade a porção do vetor que deve conter o item, até reduzir as localizações possíveis a apenas uma.
+O algoritmo parte do pressuposto de que o vetor está ordenado e realiza sucessivas divisões do espaço de busca comparando o elemento buscado (chave) com o elemento no meio do vetor; caso o elemento do meio seja menor que a chave procurada, o vetor à esquerda do item será descartado e a busca continuará apenas no vetor à direta da chave; caso o elemento do meio seja maior que a chave procurada, o vetor à direta da chave será descartado e a busca continuará apenas no vetor à direta da chave. A seguir, uma animação que demonstra a atuação desse algortimo em um vetor de interios ordenado...
 
-![binary_search](https://user-images.githubusercontent.com/119773339/228894541-5cee9541-c321-4678-b6fc-f6252c93cc06.jpg)
+![68747470733a2f2f6473303535757a6574616f62622e636c6f756466726f6e742e6e65742f696d6167655f6f7074696d697a65722f373137343033623133363833373663623666393135653662346265656233613761643534313035652e676966](https://user-images.githubusercontent.com/119773339/229228777-24e2455e-cfbc-4f6a-b0c1-1f6c1ab16f43.gif)
 
 # Complexidade
 Por se tratar de um mecanismo que funciona dividindo o tamanho do vetor (n) em 2, a busca binária tem em uma complexidade logarítmica, ou seja, O(log n) na pior e na maioria dos cenários.
